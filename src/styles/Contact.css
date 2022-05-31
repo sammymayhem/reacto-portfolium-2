@@ -4,8 +4,16 @@
     --secondary-2: #A9E4D7;
 }
 
-#contact-title {
+#container {
+    background-color: var(--body-bg) !important;
+}
+
+/* div {
     background-color: var(--body-bg);
+} */
+
+#contact-form {
+    background-color: var(--body-bg) !important;
     color: var(--secondary-1);
 }
 
@@ -18,7 +26,7 @@ Form {
 }
 
 #email, #name, #user-text {
-    width: 50% !important;
+    /* width: 50% !important; */
 }
 
 #submit-button {

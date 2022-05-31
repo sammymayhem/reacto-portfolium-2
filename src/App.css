@@ -21,6 +21,10 @@ html {
     color: var(--secondary-1);
 }
 
+#break {
+    color: var(--secondary-1);
+}
+
 .navbar-toggler-icon {
     background-color: var(--secondary-1);
     border-radius: 5px;
@@ -34,3 +38,4 @@ html {
 #links {
     font-size: 2rem;
 }
+

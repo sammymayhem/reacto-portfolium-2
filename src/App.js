@@ -9,7 +9,6 @@ import {
 import { About } from './components/About';
 import { Portfolio } from './components/Portfolio';
 import { Contact } from './components/Contact';
-import { Resume } from './components/Resume';
 
 function App() {
   return (
@@ -22,8 +21,11 @@ function App() {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="ms-auto" id="links">
                 <Nav.Link as={Link} to="/about">About</Nav.Link>
+                <div className="vr" id="break" />
                 <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
+                <div className="vr" id="break" />
                 <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+                <div className="vr" id="break" />
                 <Nav.Link href="https://www.dropbox.com/s/55z2vo38fwm03tw/Resume%20-%20Sam%20Wallace.pdf?dl=0">Resume</Nav.Link>
               </Nav>
             </Navbar.Collapse>
