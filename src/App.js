@@ -24,7 +24,7 @@ function App() {
                 <Nav.Link as={Link} to="/about">About</Nav.Link>
                 <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
                 <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-                <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
+                <Nav.Link href="https://www.dropbox.com/s/55z2vo38fwm03tw/Resume%20-%20Sam%20Wallace.pdf?dl=0">Resume</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
@@ -34,7 +34,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/resume" element={<Resume />} />
+            {/* <Route path="/resume" element={<Resume />} /> */}
           </Routes>
         </div>
       </div>
