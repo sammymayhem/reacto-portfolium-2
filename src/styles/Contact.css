@@ -1,0 +1,34 @@
+:root {
+    --body-bg: #212121;
+    --secondary-1: #63B4B8;
+    --secondary-2: #A9E4D7;
+}
+
+#contact-title {
+    background-color: var(--body-bg);
+    color: var(--secondary-1);
+}
+
+#contact-form {
+    margin: 0 auto !important;
+}
+
+Form {
+    background-color: var(--body-bg);
+}
+
+#email, #name, #user-text {
+    width: 50% !important;
+}
+
+#submit-button {
+    margin: 10px !important;
+    color: var(--secondary-1);
+    border-color: var(--secondary-1);
+}
+
+#submit-button:hover {
+    background-color: var(--secondary-1);
+    color: var(--body-bg);
+}
+

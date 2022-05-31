@@ -1,12 +1,11 @@
 :root {
-    --header-bg: #4B3869;
     --body-bg: #212121;
     --secondary-1: #63B4B8;
     --secondary-2: #A9E4D7;
 }
 
 #about {
-    display: flexbox;
+    display: flex;
     background-color: var(--body-bg);
     color: var(--secondary-2);
     text-align: center;
@@ -15,10 +14,12 @@
 
 #about h1 {
     text-align: center;
+    border-bottom: 3px solid var(--secondary-1);
 }
 
 #my-image {
-    width: 50%;
+    display: flex;
+    /* width: 50%; */
     float: left;
     margin: 0 10px 0 30px;
     padding-top: 10px;
@@ -26,7 +27,8 @@
 }
 
 #about-text {
+    display: flex;
     float: right;
-    width: 50%;
-    padding-left: 30px; 
+    /* width: 50%; */
+    padding-left: 5px; 
 }
