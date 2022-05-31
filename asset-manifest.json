@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.c0781c6e.js",
-    "static/js/787.ef80ec31.chunk.js": "/static/js/787.ef80ec31.chunk.js",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.c0781c6e.js.map": "/static/js/main.c0781c6e.js.map",
-    "787.ef80ec31.chunk.js.map": "/static/js/787.ef80ec31.chunk.js.map"
+    "main.css": "/reacto-portfolium-2/static/css/main.721351ce.css",
+    "main.js": "/reacto-portfolium-2/static/js/main.167a75fa.js",
+    "static/js/787.ef80ec31.chunk.js": "/reacto-portfolium-2/static/js/787.ef80ec31.chunk.js",
+    "static/media/header-bg.jpeg": "/reacto-portfolium-2/static/media/header-bg.8e19295d61d0db71a9c4.jpeg",
+    "static/media/Sam1.jpg": "/reacto-portfolium-2/static/media/Sam1.c06164a7904c020f225a.jpg",
+    "index.html": "/reacto-portfolium-2/index.html",
+    "main.721351ce.css.map": "/reacto-portfolium-2/static/css/main.721351ce.css.map",
+    "main.167a75fa.js.map": "/reacto-portfolium-2/static/js/main.167a75fa.js.map",
+    "787.ef80ec31.chunk.js.map": "/reacto-portfolium-2/static/js/787.ef80ec31.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.c0781c6e.js"
+    "static/css/main.721351ce.css",
+    "static/js/main.167a75fa.js"
   ]
 }
