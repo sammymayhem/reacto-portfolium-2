@@ -1,13 +1,17 @@
 import React from 'react';
 import sam from '../images/Sam1.jpg'
+import '../styles/About.css'
 
 export const About = () => {
     return (
         <div id="about">
-            <div>
+            <div id="about-title">
+                <h1>About Me</h1>
+            </div>
+            <div id="about-me">
                 <img src={sam} alt="" id="my-image" />
             </div>
-            <div id="about-text">
+            <div className="ms-auto" id="about-text">
                 <p>Hey everybody, my name is Sam Wallace. Born and raised in San Diego I have worn many hats in my
                     career.
                     After spending 16 years helping the San Diego Comic-Con grow to where it is today, I decided to

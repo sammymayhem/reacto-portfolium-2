@@ -15,24 +15,18 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar collapseOnSelect id="navbar" expand="md">
+        <Navbar collapseOnSelect id="navbar" expand="lg">
           <Container>
-            <Row>
-              <Col>
-                <Navbar.Brand id="title">Sam Wallace</Navbar.Brand>
-              </Col>
-              <Col>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                  <Nav className="me-auto" id="links">
-                    <Nav.Link as={Link} to="/about">About</Nav.Link>
-                    <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
-                    <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-                    <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
-                  </Nav>
-                </Navbar.Collapse>
-              </Col>
-            </Row>
+            <Navbar.Brand id="title">Sam Wallace</Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className="ms-auto" id="links">
+                <Nav.Link as={Link} to="/about">About</Nav.Link>
+                <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
+                <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+                <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
           </Container>
         </Navbar>
         <div>

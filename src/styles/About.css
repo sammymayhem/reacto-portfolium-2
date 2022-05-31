@@ -1,0 +1,32 @@
+:root {
+    --header-bg: #4B3869;
+    --body-bg: #212121;
+    --secondary-1: #63B4B8;
+    --secondary-2: #A9E4D7;
+}
+
+#about {
+    display: flexbox;
+    background-color: var(--body-bg);
+    color: var(--secondary-2);
+    text-align: center;
+    padding: 20px
+}
+
+#about h1 {
+    text-align: center;
+}
+
+#my-image {
+    width: 50%;
+    float: left;
+    margin: 0 10px 0 30px;
+    padding-top: 10px;
+    width: 300px;
+}
+
+#about-text {
+    float: right;
+    width: 50%;
+    padding-left: 30px; 
+}
