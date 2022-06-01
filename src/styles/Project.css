@@ -21,8 +21,18 @@
 
 .proj-card {
     display: flex;
-    max-height: 35vh;
     width: 30rem;
     margin: 10px;
     border: 2px solid var(--secondary-1) !important;
+}
+
+svg {
+    color: var(--secondary-1) !important;
+    height: 5rem !important;
+    width: 5rem !important;
+}
+
+.title-text {
+    color: var(--secondary-1);
+    font-size: 3rem !important;
 }

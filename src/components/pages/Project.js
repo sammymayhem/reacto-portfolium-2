@@ -1,6 +1,8 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import { FaGithub, FaHome } from 'react-icons/fa';
 import '../../styles/Project.css'
+
 
 const Project = () => {
     const projects = [
@@ -48,16 +50,15 @@ const Project = () => {
             <Card className="text-white card proj-card" key={index}>
                 <Card.Img src={projects.image} alt="Card image" />
                 <Card.ImgOverlay>
-                    <Card.Title>{projects.title}</Card.Title>
-                    <Card.Text>{projects.link}</Card.Text>
-                    <Card.Text>{projects.repo}</Card.Text>
+                    <Card.Title className="title-text">{projects.title}</Card.Title>
+                    <Card.Text><a href={projects.link}><FaHome /></a></Card.Text>
+                    <Card.Text><a href={projects.repo}><FaGithub /></a></Card.Text>
                 </Card.ImgOverlay>
             </Card>
         );
     };
 
     return <div className="grid">{projects.map(renderProject)}</div>;
-
 }
 
 export default Project;
