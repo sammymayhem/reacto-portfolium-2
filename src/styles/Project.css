@@ -1,0 +1,28 @@
+:root {
+    --header-bg: #4B3869;
+    --body-bg: #212121;
+    --secondary-1: #63B4B8;
+    --secondary-2: #A9E4D7;
+}
+
+/* html {
+    background-color: var(--body-bg);
+} */
+
+.grid {
+    background-color: var(--body-bg);
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+  }
+
+.proj-card {
+    display: flex;
+    max-height: 35vh;
+    width: 30rem;
+    margin: 10px;
+    border: 2px solid var(--secondary-1) !important;
+}

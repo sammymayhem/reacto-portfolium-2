@@ -7,7 +7,7 @@ import {
     Link,
 } from "react-router-dom";
 import { About } from './pages/About';
-import { Portfolio } from './pages/Portfolio';
+import Project from './pages/Project';
 import { Contact } from './pages/Contact';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
                             <Nav className="ms-auto" id="links">
                                 <Nav.Link as={Link} to="/">About</Nav.Link>
                                 <div className="vr break" />
-                                <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
+                                <Nav.Link as={Link} to="/project">Projects</Nav.Link>
                                 <div className="vr break" />
                                 <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                                 <div className="vr break" />
@@ -34,7 +34,7 @@ function App() {
                 <div>
                     <Routes>
                         <Route exact path="/" element={<About />} />
-                        <Route path="/portfolio" element={<Portfolio />} />
+                        <Route path="/project" element={<Project />} />
                         <Route path="/contact" element={<Contact />} />
                         {/* <Route path="/resume" element={<Resume />} /> */}
                     </Routes>
