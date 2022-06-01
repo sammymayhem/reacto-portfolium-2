@@ -15,6 +15,7 @@
 
 #navbar a {
     color: var(--secondary-1);
+    text-decoration: underline;
 }
 
 .break {

@@ -6,11 +6,11 @@
 
 .App {
     background-color: var(--body-bg);
-    text-align: center;
 }
 
 #container {
     background-color: var(--body-bg) !important;
+    text-align: center;
 }
 
 /* .contact-me {

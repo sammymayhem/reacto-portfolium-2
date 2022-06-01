@@ -22,11 +22,8 @@ function Navigation() {
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="ms-auto" id="links">
                                 <Nav.Link as={Link} to="/">About</Nav.Link>
-                                <div className="vr break" />
                                 <Nav.Link as={Link} to="/project">Projects</Nav.Link>
-                                <div className="vr break" />
                                 <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-                                <div className="vr break" />
                                 <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
