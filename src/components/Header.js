@@ -1,4 +1,4 @@
-import './App.css';
+import '../styles/Header.css';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import {
     HashRouter as Router,
@@ -6,9 +6,9 @@ import {
     Route,
     Link,
 } from "react-router-dom";
-import { About } from './components/pages/About';
-import { Portfolio } from './components/pages/Portfolio';
-import { Contact } from './components/pages/Contact';
+import { About } from './pages/About';
+import { Portfolio } from './pages/Portfolio';
+import { Contact } from './pages/Contact';
 
 function App() {
     return (
