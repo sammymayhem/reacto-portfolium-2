@@ -1,6 +1,6 @@
 import React from 'react';
 import { Form, FormControl, Button, InputGroup, Container, Row, Col } from 'react-bootstrap'
-import '../styles/Contact.css'
+import '../../styles/Contact.css'
 
 export const Contact = () => {
     return (

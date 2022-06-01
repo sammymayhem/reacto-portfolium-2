@@ -1,6 +1,6 @@
 import React from 'react';
-import sam from '../images/Sam1.jpg'
-import '../styles/About.css'
+import sam from '../../images/Sam1.jpg'
+import '../../styles/About.css'
 
 export const About = () => {
     return (
