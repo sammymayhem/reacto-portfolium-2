@@ -8,7 +8,7 @@ const Project = () => {
     const projects = [
         {
             title: 'SpaceX LaunchPad',
-            image: 'https://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-02.jpg',
+            image: '',
             link: 'https://sammymayhem.github.io/launchpad-gp-1/',
             repo: 'https://github.com/sammymayhem/launchpad-gp-1',
         },
@@ -49,10 +49,10 @@ const Project = () => {
         return (
             <Card className="text-white card proj-card" key={index}>
                 <Card.Img src={projects.image} alt="Card image" />
-                <Card.ImgOverlay>
-                    <Card.Title className="title-text">{projects.title}</Card.Title>
-                    <Card.Text><a href={projects.link}><FaHome /></a></Card.Text>
-                    <Card.Text><a href={projects.repo}><FaGithub /></a></Card.Text>
+                <Card.ImgOverlay className="overlay">
+                    <Card.Title className="title-text show">{projects.title}</Card.Title>
+                    <Card.Text className="show"><a href={projects.link}><FaHome /></a></Card.Text>
+                    <Card.Text className="show"><a href={projects.repo}><FaGithub /></a></Card.Text>
                 </Card.ImgOverlay>
             </Card>
         );
