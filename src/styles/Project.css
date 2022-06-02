@@ -22,14 +22,21 @@
 .proj-card {
     display: flex;
     width: 30rem;
+    height: 20rem;
     margin: 10px;
     border: 2px solid var(--secondary-1) !important;
+    overflow: hidden;
 }
 
 svg {
     color: var(--secondary-1) !important;
     height: 5rem !important;
     width: 5rem !important;
+}
+
+.card-image {
+    width: 30rem;
+    height: 20rem;
 }
 
 .title-text {

@@ -8,37 +8,37 @@ const Project = () => {
     const projects = [
         {
             title: 'SpaceX LaunchPad',
-            image: '',
+            image: process.env.PUBLIC_URL + '/images/launchpad.png',
             link: 'https://sammymayhem.github.io/launchpad-gp-1/',
             repo: 'https://github.com/sammymayhem/launchpad-gp-1',
         },
         {
             title: 'Augur',
-            image: 'https://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-02.jpg',
+            image: process.env.PUBLIC_URL + '/images/augur.png',
             link: 'https://augur-app.herokuapp.com/',
             repo: 'https://github.com/sammymayhem/the-coin-flips',
         },
         {
             title: 'JATE Text Editor',
-            image: 'https://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-02.jpg',
+            image: process.env.PUBLIC_URL + '/images/jate.png',
             link: 'https://goat-text-edit.herokuapp.com/',
             repo: 'https://github.com/sammymayhem/goat-note-taker',
         },
         {
-            title: 'JATE Text Editor',
-            image: 'https://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-02.jpg',
+            title: 'README Generator',
+            image: process.env.PUBLIC_URL + '/images/readme-gen.png',
             link: 'https://goat-text-edit.herokuapp.com/',
             repo: 'https://github.com/sammymayhem/goat-note-taker',
         },
         {
-            title: 'JATE Text Editor',
-            image: 'https://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-02.jpg',
+            title: 'Social Media API',
+            image: process.env.PUBLIC_URL + '/images/social-media-api.png',
             link: 'https://goat-text-edit.herokuapp.com/',
             repo: 'https://github.com/sammymayhem/goat-note-taker',
         },
         {
-            title: 'JATE Text Editor',
-            image: 'https://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-02.jpg',
+            title: 'Team Generator',
+            image: process.env.PUBLIC_URL + '/images/team-gen.png',
             link: 'https://goat-text-edit.herokuapp.com/',
             repo: 'https://github.com/sammymayhem/goat-note-taker',
         },
@@ -48,7 +48,7 @@ const Project = () => {
     const renderProject = (projects, index) => {
         return (
             <Card className="text-white card proj-card" key={index}>
-                <Card.Img src={projects.image} alt="Card image" />
+                <Card.Img src={projects.image} className="card-image" alt="Card image" />
                 <Card.ImgOverlay className="overlay">
                     <Card.Title className="title-text show">{projects.title}</Card.Title>
                     <Card.Text className="show"><a href={projects.link}><FaHome /></a></Card.Text>
