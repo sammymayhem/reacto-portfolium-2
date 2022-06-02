@@ -15,7 +15,7 @@ function Navigation() {
     return (
         <Router>
             <div className="App">
-                <Navbar collapseOnSelect id="navbar" expand="lg">
+                <Navbar collapseOnSelect id="navbar-cont" expand="lg">
                     <Container>
                         <Navbar.Brand id="title">Sam Wallace</Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

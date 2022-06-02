@@ -1,6 +1,6 @@
 import Navigation from './Navigation';
 
-function App() {
+function Header() {
     return (
         <div>
             <Navigation />
@@ -8,7 +8,7 @@ function App() {
     );
 }
 
-export default App;
+export default Header;
 
 
 

@@ -59,6 +59,8 @@ const Project = () => {
     };
 
     return <div className="grid">{projects.map(renderProject)}</div>;
+
+
 }
 
 export default Project;

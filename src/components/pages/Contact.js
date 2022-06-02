@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, FormControl, Button, InputGroup, Container } from 'react-bootstrap'
+import { Form, FormControl, Button, Container } from 'react-bootstrap'
 import '../../styles/Contact.css'
 
 export const Contact = () => {

@@ -10,20 +10,18 @@
 
 #container {
     background-color: var(--body-bg) !important;
-    text-align: center;
 }
-
-/* .contact-me {
-    background-color: var(--body-bg);
-} */
 
 #contact-form {
     background-color: var(--body-bg) !important;
     color: var(--secondary-1);
+    margin: 0 auto !important;
 }
 
-#contact-form {
-    margin: 0 auto !important;
+.form-control {
+    background-color: #313131 !important;
+    color: var(--secondary-2) !important;
+    border: 1px solid var(--secondary-1) !important;
 }
 
 Form {
@@ -32,7 +30,7 @@ Form {
 }
 
 #submit-button {
-    margin: 10px !important;
+    margin: 10px 0 !important;
     color: var(--secondary-1);
     border-color: var(--secondary-1);
 }

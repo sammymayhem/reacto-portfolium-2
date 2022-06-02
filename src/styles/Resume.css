@@ -1,0 +1,45 @@
+:root {
+    --body-bg: #212121;
+    --secondary-1: #63B4B8;
+    --secondary-2: #A9E4D7;
+}
+
+#root {
+    background-color: var(--body-bg);
+}
+
+body {
+    background-color: var(--body-bg);
+}
+
+#resume {
+    color: var(--secondary-1);
+}
+
+.res-down {
+    padding: 10px 0;
+}
+
+.fe-header,
+.be-header {
+    text-decoration: underline;
+}
+
+.res-down,
+.fe-header,
+.fe-list,
+.be-header,
+.be-list {
+    margin-left: 8rem;
+}
+
+.res-title {
+    text-decoration: underline;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+a {
+    color: var(--secondary-1);
+}
+
