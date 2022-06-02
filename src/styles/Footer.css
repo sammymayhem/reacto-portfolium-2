@@ -1,0 +1,18 @@
+:root {
+    --body-bg: #212121;
+    --secondary-1: #63B4B8;
+    --secondary-2: #A9E4D7;
+}
+
+.footer {
+    display: flex;
+    background-color: var(--body-bg) !important;
+    justify-content: center;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+.linked-in {
+    padding: 10px 50px;
+}
