@@ -49,10 +49,10 @@ const Project = () => {
         return (
             <Card className="text-white card proj-card" key={index}>
                 <Card.Img src={projects.image} className="card-image" alt="Card image" />
-                <Card.ImgOverlay className="overlay">
-                    <Card.Title className="title-text show">{projects.title}</Card.Title>
-                    <Card.Text className="show"><a href={projects.link}><FaHome /></a></Card.Text>
-                    <Card.Text className="show"><a href={projects.repo}><FaGithub /></a></Card.Text>
+                <Card.ImgOverlay className="proj-overlay">
+                    <Card.Title className="title-text show-proj">{projects.title}</Card.Title>
+                    <Card.Text className="show-proj"><a href={projects.link}><FaHome /></a></Card.Text>
+                    <Card.Text className="show-proj"><a href={projects.repo}><FaGithub /></a></Card.Text>
                 </Card.ImgOverlay>
             </Card>
         );
