@@ -6,7 +6,7 @@ import '../styles/Footer.css';
 export const Footer = () => {
     return (
         <div className="sticky-bottom footer">
-            <Navbar bg="dark">
+            <Navbar>
                 <Container>
                     <div><a href="https://github.com/sammymayhem"><FaGithub /></a></div>
                     <div className="linked-in"><a href="https://www.linkedin.com/in/sam-wallace-92b6238/"><FaLinkedin /></a></div>
