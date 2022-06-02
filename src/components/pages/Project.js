@@ -27,20 +27,20 @@ const Project = () => {
         {
             title: 'README Generator',
             image: process.env.PUBLIC_URL + '/images/readme-gen.png',
-            link: 'https://goat-text-edit.herokuapp.com/',
-            repo: 'https://github.com/sammymayhem/goat-note-taker',
+            link: 'https://github.com/sammymayhem/positive-readme-generator',
+            repo: 'https://github.com/sammymayhem/positive-readme-generator',
         },
         {
             title: 'Social Media API',
             image: process.env.PUBLIC_URL + '/images/social-media-api.png',
-            link: 'https://goat-text-edit.herokuapp.com/',
-            repo: 'https://github.com/sammymayhem/goat-note-taker',
+            link: 'https://github.com/sammymayhem/facespace-social-media-api',
+            repo: 'https://github.com/sammymayhem/facespace-social-media-api',
         },
         {
             title: 'Team Generator',
             image: process.env.PUBLIC_URL + '/images/team-gen.png',
-            link: 'https://goat-text-edit.herokuapp.com/',
-            repo: 'https://github.com/sammymayhem/goat-note-taker',
+            link: 'https://github.com/sammymayhem/team-profile-gen-assemble',
+            repo: 'https://github.com/sammymayhem/team-profile-gen-assemble',
         },
 
     ]
