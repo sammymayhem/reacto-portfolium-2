@@ -19,10 +19,10 @@ const Project = () => {
             repo: 'https://github.com/sammymayhem/the-coin-flips',
         },
         {
-            title: 'JATE Text Editor',
-            image: process.env.PUBLIC_URL + '/images/jate.png',
-            link: 'https://goat-text-edit.herokuapp.com/',
-            repo: 'https://github.com/sammymayhem/goat-note-taker',
+            title: 'Open Lobby',
+            image: process.env.PUBLIC_URL + '/images/open_lobby.png',
+            link: 'https://gitgud-open-lobby.herokuapp.com/',
+            repo: 'https://github.com/mrmrc182/esports-betting',
         },
         {
             title: 'README Generator',
