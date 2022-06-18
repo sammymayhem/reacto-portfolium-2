@@ -27,10 +27,10 @@ export const Contact = () => {
     return (
         <Container id='container'>
             <div id="contact-form">
-                <div>
+                <div className='contact-title'>
                     <h1>Contact Me</h1>
                 </div>
-                <Form onSubmit={handleSubmit}>
+                {/* <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-3">
                         <Form.Label>Name</Form.Label>
                         <Form.Control type="text" id="name" placeholder="Enter your name" />
@@ -49,14 +49,14 @@ export const Contact = () => {
                         <FormControl as="textarea" id="message" aria-label="With textarea" />
                     </Form.Group>
 
-                    <Button variant="outline-info" id="submit-button" type="submit">
+                    <Button variant="outline-info" id="submit" type="submit">
                         {status}
                     </Button>
-                </Form>
+                </Form> */}
             </div>
-            {/* <div id='email-link'>
-                <h1>Email me at: <a href="mailto: contact.samwallace@gmail.com">contact.samwallace@gmail.com</a></h1>
-            </div> */}
+            <div id='email-link'>
+                <h3>Email me at: <a href="mailto: contact.samwallace@gmail.com">contact.samwallace@gmail.com</a></h3>
+            </div>
         </Container>
     )
 }

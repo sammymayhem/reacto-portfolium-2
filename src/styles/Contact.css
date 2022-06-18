@@ -18,6 +18,10 @@
     margin: 0 auto !important;
 }
 
+.contact-title {
+    margin-top: 25px;
+}
+
 .form-control {
     background-color: #313131 !important;
     color: var(--secondary-2) !important;
