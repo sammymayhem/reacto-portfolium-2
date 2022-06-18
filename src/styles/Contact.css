@@ -40,3 +40,9 @@ Form {
     color: var(--body-bg);
 }
 
+#email-link {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: var(--secondary-1)
+}
+
