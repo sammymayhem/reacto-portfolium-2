@@ -6,7 +6,7 @@ export const Resume = () => {
         <div id="resume">
             <h1 className="res-title">Resume</h1>
             <div className="res-down">
-                <h5>Download my resume <a href="https://www.dropbox.com/s/8zlcq3k0it5kpbo/Sam%20Wallace%20Resume.pdf?dl=0">here</a></h5>
+                <h5>Download my resume <a href="https://www.dropbox.com/s/mi2z27rvgiu77cd/Sam%20Wallace%20Resume.pdf?dl=0">here</a></h5>
             </div>
             <div className="fe-header">
                 <h3>Front-end Proficiencies</h3>
